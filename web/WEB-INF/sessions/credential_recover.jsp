@@ -9,9 +9,18 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Login</title>
+        <title>Recuperación de Contraseña</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <div class="title-bar">
+            <div class="title-bar-left">
+                <ul class="dropdown menu">
+                    <span><img src="resources/img/logohs.png" width="100" /></span>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <h1>Credential Recover</h1>
+        </div>
     </body>
 </html>

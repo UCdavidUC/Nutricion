@@ -9,9 +9,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Sistema de Nutrición</title>
+        <link href="../../resources/css/foundation.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        
+        <div class="row">
+            <h1>Registrate</h1>
+            
+        </div>
     </body>
 </html>
