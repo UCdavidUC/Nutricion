@@ -20,7 +20,19 @@
             </div>
         </div>
         <div class="row">
-            <h1>Credential Recover</h1>
+            <div class="columns large-6">
+                <h1>Credential Recover</h1>
+                <form>
+                    <div class="row">
+                        <div class="columns small-3">
+                            <label for="email-middle" class="text-right middle">e-mail:</label>
+                        </div>
+                        <div class="columns small-9 email-field">
+                            <input type="text" name="email" id="mail" required="required"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </body>
 </html>
