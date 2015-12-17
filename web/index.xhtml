@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Sistema de nutrición</title>
+        <meta charset="utf-8" />
+        <h:outputStylesheet name="foundation.css" library="css"/>
+        <h:outputStylesheet name="background.css" library="css"/>
+    </h:head>
+    <h:body>
+        <div class="mainframe">
+            <img src="resources/img/Imagen_principal_familia.jpg" />
+        </div>
+        <div class="title-bar">
+            <div class="title-bar-left">
+                <ul class="dropdown menu">
+                    <span><img src="resources/img/logohs.png" width="100" /></span>
+                </ul>
+            </div>
+        </div>
+        <div style="background: rgba(255,255,255,.78)">
+            <div class="row">
+                <img src="" alt=""/>
+                <div class="text-center">
+                    <br/>   
+                    <h1>Nutrición</h1>
+                    <hr/>
+                </div>
+            </div>
+            <form method="post" action="session" >
+                <div class="row">
+                    <div class="columns large-6 large-offset-3">
+                        <fieldset class="fieldset">
+                            <h3 class="text-center">Login</h3>
+                            <div class="row">
+                                <div class="columns small-2">
+                                    <label class="text-right middle" for="user-label">Usuario:</label>
+                                </div>
+                                <div class="columns small-10">
+                                    <input type="text" name="username" maxlength="15" id="user-label" required="required" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="columns small-2">
+                                    <label class="text-right middle" for="pass-label">Contraseña:</label>
+                                </div>
+                                <div class="columns small-10">
+                                    <input type="password" name="password" id="pass-label" required="required" />
+                                </div>
+                            </div>
+                            <div class="row text-center">
+                                <label id="error-message"></label>
+                            </div>
+                            <div class="expanded button-group">
+                                <a class="button success">Resgistrarse</a>
+                                <input type="submit" value="Enviar" class="button primary" />
+                            </div>
+                            <div class="row text-center">
+                                <a href="" class="text-center">¿Olvidó su contraseña?</a>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </form>
+            <div class="footer text-center">
+                <div class="row">
+                    <div class="columns large-7 text-left">
+                        <br/>
+                        <p>Homero Santiago ® y Sin Lonjas ® son marcas de Homero Santiago. Todos los Derechos Reservados 2014.</p>
+                    </div>
+                    <div class="columns large-5">
+                        <img alt="logotipos" src="resources/img/logosfooter2.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </h:body>
+</html>
+
